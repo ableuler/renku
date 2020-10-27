@@ -8,6 +8,7 @@ on:
     - acceptance-tests/**
     branches: ['master']
     tags: ['*']
+  workflow_dispatch:
 
 jobs:
   github-env:
